@@ -1,0 +1,11 @@
+language: python
+
+version:
+  - "3.9.0"
+
+
+install:
+  - make deps
+
+script:
+  - make test
