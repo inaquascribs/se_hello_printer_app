@@ -1,4 +1,4 @@
 mock
 pytest
-black
+flake8
 pytest-cov

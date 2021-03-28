@@ -11,7 +11,7 @@ run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
 
 lint:
-	black hello_world test
+	flake8 hello_world test
 
 docker_build:
 	docker build -t hello-world-printer .
